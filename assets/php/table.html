@@ -1,0 +1,38 @@
+<!DOCTYPE html>   
+<html lang="en">   
+<head>   
+<meta charset="utf-8">   
+<title>Final Output</title>   
+<meta name="description" content="Bootstrap.">  
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">  
+<script src="../bootstrap/js/jquery.min.js"></script>
+<link rel="stylesheet" href="../bootstrap/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" src="../bootstrap/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+</head>  
+<body>  
+<div class="row header" style="text-align:center;color:green">
+<h3>Bootstrap</h3>
+</div>
+<table id="myTable" class="table table-striped" style="width:100%;">  
+        <thead>  
+          <tr>  
+            <th style="padding-right: 0px;height: 100%;">Name</th>
+            <th>Gender</th>
+            <th style="padding-right: 0px;">Frontdesk Officer</th>
+            <th>Date Served</th>
+            
+          </tr>  
+        </thead>  
+        <tbody>  
+          
+        </tbody>  
+      </table>  
+	 
+</body>  
+<script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
+</html>  
