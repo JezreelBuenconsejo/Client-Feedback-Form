@@ -1,4 +1,6 @@
+###################
 Client Feedback Form README
+###################
 
 1.) For creating Database, you can run "CreateDB.php" inside the "feedbackForm" Folder.
 -It will automatically create a superadmin account that will let you create frontdesk officers -Super Admin Login Credentials are (Username: superadmin | Password: superadmin)
@@ -12,7 +14,35 @@ Client Feedback Form README
 
 [KNOWN BUGS] 1.) the list of submitted feedback forms are sorted by name(ascending) NOT by log date(ascending)
 
-[Future development] 1.) add "Forgot password" function on the login page 2.) add new Super Admin (if necessary) 3.) make the Summary of Client Feedback downloadable as Excel (currently downloadable as PDF)
+[Future development] 1.) add "Forgot password" function on the login page 2.) add new Super Admin (if necessary) 3.) make the Summary of Client Feedback downloadable as Excel (currently downloadable as PDF) 
+
+###################
+Screenshots:
+###################
+
+Landing Page
+
+.. image:: /Screenshots/Landing%20Page.JPG
+
+Login
+
+.. image:: /Screenshots/Login.JPG
+
+Data Table
+
+.. image:: /Screenshots/DataTable.JPG
+
+Front Desk Registration
+
+.. image:: /Screenshots/Front%20Desk%20Registration.JPG
+
+Data Analytics
+
+.. image:: /Screenshots/Data%20Analytics.JPG
+
+PDF Report
+
+.. image:: /Screenshots/PDF%20Report.JPG
 
 ###################
 What is CodeIgniter
