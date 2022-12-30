@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $localIp = gethostbyname(gethostname());
-$config['base_url'] = 'http://'.$localIp."/feedbackForm/";
+$config['base_url'] = 'http://'.$localIp.'/feedbackform/';
 
 /*
 |--------------------------------------------------------------------------
