@@ -23,13 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-
-/*
 $localIp = gethostbyname(gethostname());
 $config['base_url'] = 'http://'.$localIp.'/feedbackform/';
-*/
-
-$config['base_url'] = 'https://client-feedback-form-production.up.railway.app/';
 
 /*
 |--------------------------------------------------------------------------

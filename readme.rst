@@ -2,8 +2,8 @@
 Client Feedback Form README
 ###################
 
-1.) Database is connected in Railway's Provision MySQL. CreateDB.php is for local environment testing only
-
+1.) For creating Database, you can run "CreateDB.php" inside the "feedbackForm" Folder.
+-It will automatically create a superadmin account that will let you create frontdesk officers -Super Admin Login Credentials are (Username: superadmin | Password: superadmin)
 2.) base_url is set as; $localIp = gethostbyname(gethostname()); $config['base_url'] = 'http://'.$localIp."/feedbackForm/";
 
 3.) Only Super Admin can access Summary of Client Feedback and Register new Front desk officers while Front Desk officer accounts can only access the list of submitted feedback
