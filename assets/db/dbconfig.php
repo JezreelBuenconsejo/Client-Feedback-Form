@@ -1,9 +1,9 @@
 <?php
 	define('ROOT_URL', '');
-	define('DB_HOST', 'containers-us-west-125.railway.app:5732');
+	define('DB_HOST', 'localhost');
 	define('DB_USER', 'root');
-	define('DB_PASS', 'm1Nh8CUdnqJoRO70lHFv');
-	define('DB_NAME', 'railway');
+	define('DB_PASS', '');
+	define('DB_NAME', 'feedbackform');
     // Create Connection
 	$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
